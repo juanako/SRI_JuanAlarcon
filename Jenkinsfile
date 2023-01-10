@@ -11,7 +11,7 @@ pipeline{
 		stage('Build') {
 
 			steps {
-				sh 'docker build -t helloapp:v1 .'
+				sh 'docker build -t jalakon/jenkins:latest .'
 			}
 		}
 
