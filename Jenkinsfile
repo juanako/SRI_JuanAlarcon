@@ -25,7 +25,7 @@ pipeline{
 		stage('Push') {
 
 			steps {
-				sh 'docker push helloapp:v1'
+				sh 'docker push jalakon/jenkins:latest'
 			}
 		}
 	}
