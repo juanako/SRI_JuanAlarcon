@@ -1,3 +1,3 @@
 FROM busybox
-COPY /autodocker.py
+COPY /autodocker.py /
 RUN cat /autodocker.py
