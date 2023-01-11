@@ -11,7 +11,7 @@ pipeline{
 		stage('Build') {
 
 			steps {
-				sh 'docker build -t jalakon/jenkins:latest .'
+				sh 'docker build -t jalakon/jenkinsfile:latest .'
 			}
 		}
 
@@ -25,7 +25,7 @@ pipeline{
 		stage('Push') {
 
 			steps {
-				sh 'docker push jalakon/jenkins:latest'
+				sh 'docker push jalakon/jenkinsfile:latest'
 			}
 		}
 	}
